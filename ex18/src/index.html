@@ -6,17 +6,48 @@
 </head>
 <body>
     <!-- page contents-->  
+    <h2>CatPhotoApp</h2>
+<main>
+    <a href="#"><img src="https://bit.ly/3fUJAV1" alt="Cat on tree branch." /></a>
     <p>
         Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
         attack your ankles chase the red dot, hairball run catnip eat the grass
         sniff.
     </p>
-    <input id="inside" type="radio" name="inside-outside" checked>Inside
-    <input type="radio" name="inside-outside">Outside
-    <input type="checkbox" value="Dog" checked>Dog
-    <input type="checkbox" value="Cat">Cat
-    <input type="checkbox" value="Hamster">Hamster
-    <input type="checkbox" value="Bird">Bird
-    <input type="checkbox" value="Fish">Fish
+    <ul>
+        <li>scratching</li>
+        <li>taking naps</li>
+        <li>watching birds</li>
+    </ul>
+    <ol>
+        <li>smells</li>
+        <li>too much attention</li>
+        <li>baths</li>
+    </ol>
+    <input type="text" placeholder="cat photo URL">
+    <form action="/submit-cat-photo">
+        <button type="submit">"Submit"</button>
+        <input type="text" required>
+        <!-- ERR_FILE_NOT_FOUND -->
+    </form>
+    <div>
+        <label for="inside">
+            <input id="inside" type="radio" name="inside-outside" checked>Inside
+        </label>
+        <input type="radio" name="inside-outside">Outside
+    </div>
+
+    <div>
+        <label for="inside">
+            <input type="checkbox" value="Dog" checked>Dog
+            <input type="checkbox" value="Cat">Cat
+            <input type="checkbox" value="Hamster">Hamster
+            <input type="checkbox" value="Bird">Bird
+            <input type="checkbox" value="Fish">Fish
+        </label>
+    </div>
+</main>
+<footer id="footer"></footer>
 </body>
 </html>
+
