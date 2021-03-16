@@ -5,9 +5,8 @@ function myFunction(myParameter) {
     }
     return "The parameter is false!";
 }
-console.log("The parameter is true!");
-console.log("The parameter is false!");
+console.log(myFunction(true));
+console.log(myFunction(false));
+
 // Only change code below this line
-myFunction("The parameter is true!");
-myFunction("The parameter is false!");
 module.exports = myFunction;
