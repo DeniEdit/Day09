@@ -4,7 +4,6 @@ function compareDifferentValues(m, n) {
         return "Equal";
     } else{
     return "Not equal";
-
     }
 }
 console.log("Not equal");
@@ -18,6 +17,4 @@ compareDifferentValues("8", 8);
 compareDifferentValues('8', 8);
 compareDifferentValues("8", "8");
 compareDifferentValues(8,8);
-
-
 module.exports = compareDifferentValues;
